@@ -1,0 +1,14 @@
+HTML
+
+1 - home com login e senha - (homepage)
+2 - html do fornecedor caso seja um fornecedor que esteja fazendo login
+    2.1 - html com todos os pagamentos - requisitar antecipação
+    2.2 - Visualização da requisição de antecipação de pagamentos - (status solicitação - pendente - aprovado - negado)
+
+
+3 - pagina do operador caso seja um operador que esteja fazendo login
+    3.1 - html com todos as solicitações de antecipação de pagamentos (status pendente)
+
+4 - aprovação ou negação da solicitação
+
+
