@@ -38,8 +38,8 @@ class SolicitacaoAntecipacao(models.Model):
     data_pagamento = models.DateField(blank=True, default='')
     novo_valor = models.FloatField(blank=True, default=0)
 
-    # def __str__(self):
-    #     return self.pagamento
+    def __str__(self):
+        return str(self.pagamento)
 
 @receiver(pre_save, sender=SolicitacaoAntecipacao)
 def save_solicitacao_antecipacao(sender, instance, *args, **kwargs):
