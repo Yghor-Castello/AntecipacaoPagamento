@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-0^ai&=2$^1*(2-2(=7+57idoy)&lm(#ealqe3l%)k_4*px(@u@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'financeiro.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'HOST': 'localhost',
-        'NAME': 'pagamentodb',
-        'PORT': '5432',
+        'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': '6464'
+        'PASSWORD': 'postgres',
+        'HOST': 'db',
+        'PORT': 5432,
     }
 }
 
